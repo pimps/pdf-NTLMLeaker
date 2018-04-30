@@ -10,7 +10,7 @@ Basically, this Python script will inject in any given pdf a /AA entry that when
 During my tests with the script I verified that this attack works nicely in the Adobe Acrobat Reader. But my tests failed in browser PDF readers (Edge, Firefox and Chrome) and also in the Foxit Reader 9.1.
 
 
-# Install
+## Install
 
 Install required libraries with:
 
@@ -18,7 +18,7 @@ Install required libraries with:
 pip install pdfrw
 ```
 
-# Example
+## Example
 
 ```
 $ python3 PDF-NTLMLeaker.py -h
