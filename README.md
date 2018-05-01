@@ -7,7 +7,7 @@ This script implements the Proof of Concept attack from the Checkpoint research 
 
 Basically, this Python script will inject in any given pdf a /AA entry that when parsed by the PDF reader will request a remote file in a server controlled by the attacker leaking the NTLM hash of any user that open that pdf document in a windows host. 
 
-During my tests with the script I verified that this attack works nicely in the Adobe Acrobat Reader. But my tests failed in browser PDF readers (Edge, Firefox and Chrome) and also in the Foxit Reader 9.1.
+During my tests with the script I verified that this attack works nicely in the Adobe Acrobat Reader. But my tests failed in Browser's default PDF readers (Edge, Firefox and Chrome) and also in the Foxit Reader 9.1.
 
 
 ## Install
